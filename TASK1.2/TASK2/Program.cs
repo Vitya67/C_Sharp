@@ -1,0 +1,12 @@
+﻿Console.WriteLine("!!! Введіть число!!!");
+float number = Convert.ToDouble(Console.ReadLine());
+float number1 = number % 1;
+Console.WriteLine(number1);
+float number2 = number1 * 10;
+Console.WriteLine(number2);
+float number3 = number2 % 1;
+Console.WriteLine(number3);
+float a = number2 - number3;
+Console.WriteLine(a);
+float b = number3 * 1;
+Console.WriteLine(b);
